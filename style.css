@@ -5,7 +5,7 @@
 .container {
   background: #669999;
   padding: 25px;
-  max-width: 760px;
+  max-width: auto;
   margin: 25px auto;
   overflow: hidden;
   border-radius: 10px;
@@ -31,6 +31,30 @@ h2 {
 
 .new-task-container {
   text-align: center;
+
+}
+
+#new-task {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  width: 100%;
+
+}
+
+#addTask {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  font-size: large;
+  margin-top: 5px;
+  font-weight: bold;
+
 }
 
 .box {
@@ -72,8 +96,18 @@ li {
 
 .delete {
   float: right;
-  background-color: #ff6666;
+  background-color: #ff4d4d;
   color: white;
-  border: 0px;
-  padding: 3px 5px;
+  font-size: large;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.item {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
